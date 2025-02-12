@@ -8,24 +8,25 @@ int main () {
     char e[5] = {"a","e","i","o","u"};
     char d;
     scanf("%c", &d);
+    
     for(int i = 0; i < 21; i++) {
         if (a[i] == tolower(d)){
             printf("Consonant");
         }
     }
     for(int i = 0; i < 8; i++) {
-    if (b[i] == d){
-        printf("Special Character");
-    }
+        if (b[i] == d){
+            printf("Special Character");
+        }
     }
     for(int i = 0; i < 10; i++) {
-    if (c[i] == d){
-        printf("Digit");
-    }
+        if (c[i] == d){
+            printf("Digit");
+        }
     }
     for(int i = 0; i < 5; i++) {
-    if (e[i] == tolower(d)){
-        printf("Vowel");
-    }
+        if (e[i] == tolower(d)){
+            printf("Vowel");
+        }
     }
 }

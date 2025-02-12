@@ -5,7 +5,7 @@ int main() {
     char c[20] = "Prime";
     scanf("%d", &a);
     for(int i = 2; i < a; i++) {
-        int b = a % 2;
+        int b = a % i;
         if (b == 0){
             c == "Not Prime";          
             break;

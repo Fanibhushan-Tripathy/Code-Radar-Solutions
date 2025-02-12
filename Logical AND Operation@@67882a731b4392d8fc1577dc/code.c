@@ -9,5 +9,5 @@ int main () {
         print("True");
     } else {
         print("False");
-    }
+    };
 }

@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    char c[20] = "Prime";
+    char c = "Prime";
     scanf("%d", &a);
     for(int i = 2; i < a; i++) {
         int b = a % i;

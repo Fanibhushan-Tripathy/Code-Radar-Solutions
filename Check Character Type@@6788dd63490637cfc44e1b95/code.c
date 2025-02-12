@@ -15,7 +15,7 @@ int main () {
             printf("Consonant");
         }
     }
-    for(int i = 0; b[i] < '\0' ; i++) {
+    for(int i = 0; b[i] != '\0' ; i++) {
         if (b[i] == d){
             printf("Special Character");
         }

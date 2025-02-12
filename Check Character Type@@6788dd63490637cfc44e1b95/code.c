@@ -21,12 +21,12 @@ int main () {
         }
     }
     for(int i = 0; e[i] != '\0'; i++) {
-        if (c[i] == d){
+        if (e[i] == d){
             printf("Digit");
         }
     }
     for(int i = 0; c[i] != '\0'; i++) {
-        if (e[i] == tolower(d)){
+        if (c[i] == tolower(d)){
             printf("Vowel");
         }
     }

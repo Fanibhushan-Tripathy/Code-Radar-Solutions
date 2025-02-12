@@ -8,6 +8,6 @@ int main (){
     scanf("%d", &c);
     d = a + b + c;
     float e = d / 3;
-    printf("Sum: %d", d)
+    printf("Sum: %d", d);
     printf("Average: %.2f", e);
 }

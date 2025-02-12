@@ -7,7 +7,7 @@ int main() {
     for(int i = 2; i < a; i++) {
         int b = a % i;
         if (b == 0){
-            c == "Not Prime";          
+            c = "Not Prime";          
             break;
         }
     }

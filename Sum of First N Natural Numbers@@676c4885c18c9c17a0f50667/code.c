@@ -7,5 +7,5 @@ int main() {
     for(int i == 1, i<=count; i++) {
         totsum += i;
     }
-    printf("%d", totsum)
+    printf("%d", totsum);
 }

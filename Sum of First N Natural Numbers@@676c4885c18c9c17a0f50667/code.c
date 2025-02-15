@@ -3,7 +3,7 @@
 int main() {
     int count;
     scanf("%d", &count);
-    int totsum;
+    int totsum = 0
     for(int i == 1, i<=count; i++) {
         totsum += i;
     }

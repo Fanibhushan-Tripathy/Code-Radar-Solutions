@@ -8,7 +8,7 @@ int main() {
     if (inp < 12);{
         printf("%d", arr[inp]);
     } else {
-        printf("Invalid month")
+        printf("Invalid month");
     }
 
 }

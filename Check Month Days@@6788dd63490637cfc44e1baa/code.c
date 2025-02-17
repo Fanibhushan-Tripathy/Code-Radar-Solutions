@@ -5,7 +5,7 @@ int main() {
     int inp;
     scanf("%d", &inp);
     inp -= 1;
-    if (inp < 12);{
+    if (inp < 12){
         printf("%d", arr[inp]);
     } else {
         printf("Invalid month");

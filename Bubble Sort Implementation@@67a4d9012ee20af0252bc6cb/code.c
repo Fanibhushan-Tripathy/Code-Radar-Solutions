@@ -1,9 +1,8 @@
-#inlcude<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 
-void prArr(int* arr[]){
-    int len = sizeof(arr) / sizeof(arr[0]);
-    for(int i = 0; i < len; i++){
+void prArr(int* arr[], int numb){
+    for(int i = 0; i < numb; i++){
         printf("%d ", *arr[i]);
     }
 }
@@ -11,13 +10,13 @@ void prArr(int* arr[]){
 void swap(int* a, int* b){
     int temp = *a;
     *a = *b;
-    *b = *a;
+    *b = temp;
 }
 
-void BsortArr(in* arr[], int numb){
-    for (int i = 0; i < numb; i++){
-        for (int i = 0; i < numb; i++){
-            if ((*arr[i] > *arr[i+1]) && (i != numb-1)) {
+void BsortArr(int* arr[], int numb){
+    for (int i = 0; i < numb - 1; i++){
+        for (int j = 0; j < numb - i - 1; j++){
+            if (*arr[i] > *arr[i+1]){
                 swap(*arr[i], *arr[i+1]);
             }
         }
@@ -31,7 +30,8 @@ int main() {
     scanf("%d\n", &numb);
     int* arr[numb];
     for (int i = 0; i < numb; i++){
-        scanf("%d", *arr[i]);
+        arr[i] = (int*)malloc(sizeof(int));
+        scanf("%d", arr[i]);
     }
     BsortArr(arr,numb);
 }

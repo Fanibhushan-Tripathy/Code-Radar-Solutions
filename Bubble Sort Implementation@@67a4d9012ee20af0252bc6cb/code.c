@@ -17,7 +17,7 @@ void BsortArr(int* arr[], int numb){
     for (int i = 0; i < numb - 1; i++){
         for (int j = 0; j < numb - i - 1; j++){
             if (*arr[i] > *arr[i+1]){
-                swap(*arr[i], *arr[i+1]);
+                swap(arr[i], arr[i+1]);
             }
         }
     }

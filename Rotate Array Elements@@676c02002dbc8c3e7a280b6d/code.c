@@ -11,7 +11,8 @@ int main(){
     int counter = 0;
     int narr[num];
     scanf("%d", &shift);
-    for(int i = (num-1); i > ((num-1) - shift); i--){
+
+    for(int i = (num - shift) + 1; i < num; i++){
         narr[counter] = arr[i];
         counter++;
     }

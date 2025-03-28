@@ -12,7 +12,7 @@ int main(){
     int narr[num];
     scanf("%d", &shift);
 
-    for(int i = (num - shift) + 1; i < num; i++){
+    for(int i = (num - shift); i < num; i++){
         narr[counter] = arr[i];
         counter++;
     }

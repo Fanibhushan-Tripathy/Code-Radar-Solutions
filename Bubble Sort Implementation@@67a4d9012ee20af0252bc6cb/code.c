@@ -16,22 +16,29 @@ void swap(int* a, int* b){
 void BsortArr(int* arr[], int numb){
     for (int i = 0; i < numb - 1; i++){
         for (int j = 0; j < numb - i - 1; j++){
-            if (*arr[i] > *arr[i+1]){
-                swap(arr[i], arr[i+1]);
+            if (*arr[j] > *arr[j+1]){
+                swap(arr[j], arr[j+1]);
             }
         }
     }
-    prArr();
+    prArr(arr,numb);
 }
 
 
 int main() {
     int numb;
-    scanf("%d\n", &numb);
-    int* arr[numb];
+    scanf("%d", &numb);
+    int** arr = (int**)malloc(numb * sizeof(int*));
     for (int i = 0; i < numb; i++){
-        arr[i] = (int*)malloc(sizeof(int));
+        arr[i] = (int* )malloc(sizeof(int));
         scanf("%d", arr[i]);
     }
     BsortArr(arr,numb);
+    
+    // Free allocated memory
+    for (int i = 0; i < numb; i++){
+        free(arr[i]);
+    }
+    free(arr);
+    return 0;
 }

@@ -2,10 +2,10 @@
 
 void bubbleSort(int arr[], int n){
     for(int i = 0; i < n - 1; i++){
-        for (int j = 0; j < n - j - 1; j++) {
+        for (int j = 0; j < n; j++) {
             if (arr[j] > arr[j + 1]) {
-                int temp = arr[i];
-                arr[i] = arr[i + 1];
+                int temp = arr[j];
+                arr[j] = arr[ + 1];
                 arr[i + 1] = temp;
             }
         }

@@ -9,7 +9,7 @@ int main(){
     }
 
     int Lnum = arr[0];
-    int Snum;
+    int Snum = arr[0];
     for(int i = 0; i < num; i++){
         if(arr[i] > Lnum){
             Snum = Lnum;

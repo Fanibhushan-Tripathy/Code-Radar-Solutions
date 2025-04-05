@@ -15,6 +15,9 @@ int main(){
             Snum = Lnum;
             Lnum = arr[i];
         }
+        if((arr[i] > Snum) && (arr[i] < Lnum)){
+            Snum = arr[i];
+        }
     }
     if (Lnum == Snum){
         printf("-1");

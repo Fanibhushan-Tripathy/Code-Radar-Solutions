@@ -27,7 +27,7 @@ int main(){
 
     for(int i = 0; i < num; i++){
         if(mask[i] != 0){
-            printf("%d %d\n", arr[i], mask[i])
+            printf("%d %d\n", arr[i], mask[i]);
         }
     }
 

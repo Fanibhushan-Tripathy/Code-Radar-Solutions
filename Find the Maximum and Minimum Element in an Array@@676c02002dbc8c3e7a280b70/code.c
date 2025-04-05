@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void maxnum(int arr[], nt n){
+void maxnum(int arr[], int n){
     int Xnum = arr[0];
     for(int i = 0; i < n; i++){
         if(arr[i] > Xnum){

@@ -18,7 +18,7 @@ int main(){
     scanf("%d", &num);
     int arr[num];
     for(int i = 0; i < num; i++){
-        scanf("%d", &arr[i])
+        scanf("%d", &arr[i]);
     }
     OddEvenCount(arr,num);
 }

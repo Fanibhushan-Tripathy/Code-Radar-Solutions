@@ -9,7 +9,7 @@ void printArray(int arr[], int n){
 void selectionSort(int arr[], int n){
     for(int i = 0; i < n; i++){
         int minInd = 0;
-        for(int j = i, j < n; j++) {
+        for(int j = i; j < n; j++) {
             if(int(arr[j]) < int(arr[minInd])) {
                 minInd = j;
             }

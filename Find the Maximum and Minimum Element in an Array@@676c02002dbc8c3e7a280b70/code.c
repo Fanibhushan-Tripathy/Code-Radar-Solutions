@@ -7,7 +7,7 @@ void maxnum(int arr[], int n){
             Xnum = arr[i];
         }
     }
-    printf("%d", maxnum);
+    printf("%d", Xnum);
 }
 
 void minnum(int arr[], int n){

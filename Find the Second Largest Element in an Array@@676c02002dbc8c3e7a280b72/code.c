@@ -19,7 +19,7 @@ int main(){
             Snum = arr[i];
         }
     }
-    if (Lnum == Snum){
+    if (-9999 == Snum){
         printf("-1");
     } else {
         printf("%d", Snum);

@@ -14,7 +14,7 @@ int main() {
                 printf("%d", arr[i]);
                 break;
             }
-        } else if (i == n-1) {
+        } else if (i == num-1) {
             if (arr[i] > arr[i-1]) {
                 printf("%d", arr[i]);
                 break;

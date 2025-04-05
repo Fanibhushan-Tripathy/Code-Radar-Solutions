@@ -16,5 +16,10 @@ int main(){
             Lnum = arr[i];
         }
     }
-    printf("%d", Snum);
+    if (Lnum == Snum){
+        printf("-1");
+    } else {
+        printf("%d", Snum);
+    }
+
 }

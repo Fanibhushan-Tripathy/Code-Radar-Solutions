@@ -6,7 +6,7 @@ int main(){
     int arr[num];
     int mask[num];
     for(int i = 0; i < num; i++){
-        scanf("%d", &arr[i])
+        scanf("%d", &arr[i]);
         mask[i] = -1;
     }
 

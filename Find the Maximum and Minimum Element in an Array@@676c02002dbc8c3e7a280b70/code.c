@@ -1,5 +1,5 @@
 #include<stdio.h>
-i
+
 void maxnum(int arr[], nt n){
     int Xnum = arr[0];
     for(int i = 0; i < n; i++){

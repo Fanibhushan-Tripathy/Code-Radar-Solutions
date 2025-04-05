@@ -8,7 +8,7 @@ void printArray(char arr[], int n){
 
 void selectionSort(char arr[], int n){
     for(int i = 0; i < n; i++){
-        int minInd = 0;
+        int minInd = i;
         for(int j = i; j < n; j++) {
             if( arr[j] < arr[minInd]) {
                 minInd = j;
